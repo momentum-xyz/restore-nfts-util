@@ -15,3 +15,11 @@ Example:
 ```bash
 node . wss://drive.antst.net:19947 3 ./odyssey-nfts-20230111.json 'lorem ipsum dolor sit amet'
 ```
+
+## Backup NFTs
+
+To backup the NFTs, you can use the following script:
+
+```bash
+node backup_nfts.js wss://drive.antst.net:19947 3
+```
